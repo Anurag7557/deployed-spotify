@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client":"cd .. & cd client && npm start",
-    "dev":"concurrently \"nodemon\" \"npm run client\"" 
+    "dev":"concurrently \"nodemon\" \"npx json-server --watch data_romantic.json --port 5501\"" 
   },
   "keywords": [],
   "author": "",
