@@ -1,0 +1,50 @@
+.genre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.genrebox{
+    position: absolute;
+    margin-top: 5%;
+    background: linear-gradient(rgba(56, 56, 56, 0.8),black,black);
+    width: 100%;
+    padding: 2%;
+}
+.namegenre{
+    width: 94%;
+    height: 12rem;
+    color: white;
+    text-align: left;
+    font-size: 500%;
+    padding-top: 10%;
+    font-weight: 600;
+    padding-left: 6%;
+}
+#page{
+    color: azure;
+    margin-left: 85%;
+    position: absolute;
+    top: 81%;
+    width: 10rem;
+    margin-left: 43%;
+}
+#btn{
+    background-color: rgb(0, 0, 0,0);
+    color: azure;
+    border: 0px;
+    margin-left: 10%;
+    font-size: 20px;
+    border: 1px solid #eee;
+    padding: 5%;
+}
+.genre-songs{
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    width: 92%;
+    height: 80vh;
+}
+.genrebox{
+    height: 115vh;
+}
